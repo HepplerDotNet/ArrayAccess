@@ -1,0 +1,21 @@
+{
+    "name": "hepplerdotnet/arrayaccess",
+    "description": "Trait to implement ArrayAccess",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Patrick Heppler",
+            "email": "patrick@heppler.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "HepplerDotNet\\ArrayAccess\\": "src/"
+        }
+    }
+}
